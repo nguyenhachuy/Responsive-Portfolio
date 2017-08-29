@@ -81,7 +81,6 @@ body {
 
 .bio {
 	font-size: 120%;
-	color: #777777;
 }
 
 #sidebar {
@@ -121,4 +120,5 @@ body {
 
 .regular-font {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
 }
