@@ -34,10 +34,9 @@ body {
 }
 
 #name {
-	font-weight: bold;
-	width: 250px;
+	width: 22%;
 	color: white;
-	margin: 0px 440px 0px 0px;
+	/*margin: 0px 45.8% 0px 0px;*/
 	background-color: #4aaaa5;
 	text-align: center;
 }
@@ -45,13 +44,20 @@ body {
 
 .navigation-bar {
 	margin: 0px 10px 0px 10px;
-	font-size: 120%;
+	font-size: 1.2em;
 	color: #999999;
 }
 
+.navigation-wrapper {
+	flex: 1 0 auto;
+	display: inline-block;
+	float: right;
+	margin-right: 2%;
+}
+
 #profile {
-	margin-top: 22px;
-	margin-bottom: 40px;
+	margin-top: 2%;
+	margin-bottom: 3%;
 }
 
 #profile h1, h2 {
@@ -59,7 +65,7 @@ body {
 }
 
 #main-content {
-	width: 590px;
+	width: 61.4583%;
 	float:left;
 	padding: 30px 29px 30px 29px;
 	border: 1px solid #dddddd;
@@ -80,20 +86,21 @@ body {
 }
 
 .bio {
-	font-size: 120%;
+	font-size: 1.2em;
+	line-height: 1.75em;
 }
 
 #sidebar {
 	height: 140px;
-	width: 210px;
-	padding: 30px 30px 30px 30px;
+	width: 22%;
+	padding: 3% 3% 3% 3%;
 	border: 1px solid #dddddd;
-	margin-left: 35px;
+	margin-left: 3.6%;
 }
 
 #connect {
-	font-size: 150%;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
+	text-align: center;
 }
 
 .link {
@@ -114,11 +121,40 @@ body {
 
 .header-font {
 	font-family:'Georgia', Times, Times New Roman, serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: bold;	
 }
 
 .regular-font {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
+}
+
+/* Media queries */
+@media (max-width: 980px) {
+	.wrapper {
+		width: 640px;
+		font-size: 13px;
+	}
+	
+	#name {
+		padding: 0 10px 0 10px;
+	}
+
+	#main-content {
+		width: 48%;
+	}
+	
+	#sidebar {
+		width: auto;
+	}
+
+	#profile-pic {
+	    display:inline-block;
+	    width:100%;
+	    height: 230px;
+	}
+	.header-font {
+		font-size: 1.7em;
+	}
 }
