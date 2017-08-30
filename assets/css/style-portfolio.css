@@ -28,3 +28,10 @@
 		display: block;
 	}
 }
+
+@media (max-width: 768px) {
+	.portfolio-item {
+		width: 45%;
+		display: inline-block;
+	}
+}

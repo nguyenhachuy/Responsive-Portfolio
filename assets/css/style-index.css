@@ -163,11 +163,13 @@ body {
 	}
 }
 
+
 @media (max-width: 768px) {
 
 	#main-content, #sidebar {
 		box-sizing: border-box;
 	}
+	
 	.wrapper {
 		width: 600px;
 		font-size: 12px;
