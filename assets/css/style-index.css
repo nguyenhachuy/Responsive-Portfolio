@@ -133,7 +133,7 @@ body {
 /* Media queries */
 @media (max-width: 980px) {
 	.wrapper {
-		width: 640px;
+		width: 700px;
 		font-size: 13px;
 	}
 	
@@ -142,7 +142,7 @@ body {
 	}
 
 	#main-content {
-		width: 48%;
+		width: 50%;
 	}
 	
 	#sidebar {
@@ -153,8 +153,45 @@ body {
 	    display:inline-block;
 	    width:100%;
 	    height: 230px;
+	    margin-bottom: 20px;
 	}
 	.header-font {
 		font-size: 1.7em;
+	}
+	.navigation-bar {
+		margin: 0px 15px 0px 15px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	#main-content, #sidebar {
+		box-sizing: border-box;
+	}
+	.wrapper {
+		width: 600px;
+		font-size: 12px;
+	}
+
+	#name {
+		padding: 0 10px 0 10px;
+	}
+	
+	#main-content {
+		width: 100%;
+	}
+
+	#sidebar {
+		width: 100%;
+		margin: 5% 0;
+	}
+
+	#profile-pic {
+		width: 50%;
+		height: 40%;
+	}
+
+	#connect {
+		text-align: left;
 	}
 }

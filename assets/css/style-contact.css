@@ -10,7 +10,6 @@
 	width: 100%;
 	margin: 10px 0px 10px 0px;
 	height: 200px;	
-
  }
 
  #submit {
@@ -26,4 +25,5 @@
 
 .contact-form {
  	font-size: 120%;
+ 	line-height: 1.5em;
  }
