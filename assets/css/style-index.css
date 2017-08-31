@@ -67,7 +67,7 @@ body {
 #main-content {
 	width: 61.4583%;
 	float:left;
-	padding: 30px 29px 30px 29px;
+	padding: 3% 3% 3% 3%;
 	border: 1px solid #dddddd;
 }
 
@@ -93,20 +93,22 @@ body {
 #sidebar {
 	height: 140px;
 	width: 22%;
-	padding: 3% 3% 3% 3%;
+	padding: 3% 3% 0% 3%;
 	border: 1px solid #dddddd;
 	margin-left: 3.6%;
 }
 
 #connect {
-	margin-bottom: 30px;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
 	text-align: center;
+	border-bottom: 3px solid #dddddd;
 }
 
 .link {
 	height: 60px;
 	width: 60px; 
-	margin: 0px 3px 0px 3px;
+	margin: 1% 1% 1% 1%;
 }
 
 #footer {
@@ -165,7 +167,6 @@ body {
 
 
 @media (max-width: 768px) {
-
 	#main-content, #sidebar {
 		box-sizing: border-box;
 	}
@@ -197,3 +198,39 @@ body {
 		text-align: left;
 	}
 }
+
+@media (max-width: 640px) {
+	.wrapper {
+		width: 100%;
+		font-size: 12px;
+	}
+
+	#name, .navigation-wrapper, #profile-pic {
+		width: 100%;
+	}
+	
+	.navigation-wrapper {
+		margin: 0;
+	}
+	
+	.navigation-bar {
+		width: 33%;
+		margin: 0;
+		text-align: center;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	#header {
+		height: auto;
+		line-height: 70px;
+	}
+
+	#main-content {
+		padding-top: 20px;
+	}
+
+	#profile {
+		width: 95%;
+	}
+}	
