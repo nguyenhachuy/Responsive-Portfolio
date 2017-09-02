@@ -108,7 +108,7 @@ body {
 .link {
 	height: 60px;
 	width: 60px; 
-	margin: 1% 1% 1% 1%;
+	margin: 3px 3px 3px 3px;
 }
 
 #footer {
@@ -231,6 +231,6 @@ body {
 	}
 
 	#profile {
-		width: 95%;
+		width: 90%;
 	}
 }	
